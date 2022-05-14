@@ -1,0 +1,25 @@
+<html>
+    <title>Diary Writing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="DiaryWriting.js"></script>
+    
+
+    <head>
+        <center>
+              <button onclick="Logout()">Logout</button>
+              <br>
+              <br>
+              <label height="560" width="300" id="labelMessage"></label>
+            <h2>Date</h2> <input id="Date" type="text">
+            <h2>Message</h2> <input id="Message" type="text">
+        </center>
+    </head>
+    <body>
+      <center>
+        <button onclick="Save()">Save</button>
+      </center>  
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+    <title>Diary</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="Diary.js"></script>
+    <head>
+        <center>
+            <h1>Welcome</h1>
+            <h3>Start/Resume your diary</h3>
+           
+            <button onclick="MonthSelected('January')">January</button>
+            <button onclick="MonthSelected('February')">February</button>
+            <button onclick="MonthSelected('March')">March</button>
+            <button onclick="MonthSelected('April')">April</button>
+            <button onclick="MonthSelected('May')">May</button>
+            <button onclick="MonthSelected('June')">June</button>
+            <button onclick="MonthSelected('July')">July</button>
+            <button onclick="MonthSelected('August')">August</button>
+            <button onclick="MonthSelected('September')">September</button>
+            <button onclick="MonthSelected('October')">October</button>
+            <button onclick="MonthSelected('November')">November</button>
+            <button onclick="MonthSelected('December')">December</button>
+
+        </center>
+    </head>
+    <body>
+        <center>
+            <h3 id="lblSelectedMonth"></h3>
+            <h3 id="monthMessages"></h3>
+            <button onclick="AddDiaryEntry()">Add Diary Entry</button>
+        </center>
+    </body>
+</html>

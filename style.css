@@ -1,0 +1,35 @@
+
+
+body
+{
+   background-color:rgb(255, 130, 6);
+}
+
+button
+{
+   background: aqua;
+   font-size: 25px;
+   font-family:'Times New Roman', Times, serif
+}
+
+h1
+{
+   font-size: 90px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2
+{
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input
+{
+   margin-bottom: 67px;
+   width: 400px;
+   height: 78px;
+   font-size: 30px;
+}
+
+
